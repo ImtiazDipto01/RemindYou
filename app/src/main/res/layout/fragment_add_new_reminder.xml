@@ -4,9 +4,12 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/normal_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add new Reminder"
         android:textColor="@color/black"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"/>
 </LinearLayout>
